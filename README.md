@@ -10,7 +10,7 @@ The notebook walks through:
 - Source: California Housing dataset via sklearn.datasets.fetch_california_housing
 - Features: Median income, house age, average rooms, population, etc.
 - Target: Median house value
-  #Setup and Dependencies
+  # Setup and Dependencies
   pip install numpy pandas matplotlib seaborn scikit-learn
 
 
