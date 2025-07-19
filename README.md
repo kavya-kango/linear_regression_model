@@ -6,11 +6,11 @@ The notebook walks through:
 - Model training using Linear, Ridge, and Lasso regression
 - Evaluation using cross-validation and R² score
 - Visualization of prediction errors
-  # Dataset
+# Dataset
 - Source: California Housing dataset via sklearn.datasets.fetch_california_housing
 - Features: Median income, house age, average rooms, population, etc.
 - Target: Median house value
-  # Setup and Dependencies
+# Setup and Dependencies
   pip install numpy pandas matplotlib seaborn scikit-learn
 
 
@@ -35,10 +35,10 @@ The notebook walks through:
 7. Lasso Regression
 - Similar tuning and evaluation as Ridge
 - Best alpha selected from [1, 2, ..., 60]
-  # Results
+# Results
 - All three models evaluated based on error distribution and R² score
 - Ridge and Lasso provide regularization, improving performance by minimizing overfitting
-  # Highlights
+# Highlights
 - Effective comparison of multiple linear models
 - Use of cross-validation for robust model scoring
 - Visual insights with Seaborn KDE plots
